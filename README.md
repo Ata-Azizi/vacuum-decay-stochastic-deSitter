@@ -8,7 +8,7 @@
 
 ## About
 
-This poster summarizes the results of a research internship carried out at the Institute for Theoretical Physics, Göttingen, and was presented within the research group of Prof. Dr. Laura Covi.
+This poster summarizes the results of a research internship carried out at the Institute for Theoretical Physics, Göttingen, and was presented within the research group of Prof. Laura Covi.
 
 It presents a stochastic approach to vacuum decay and phase transitions in de Sitter spacetime. The stochastic formalism, based on the Langevin and Fokker–Planck equations, provides an alternative to the standard semiclassical picture by treating long-wavelength field modes as stochastic variables driven by quantum noise from short-wavelength modes.
 

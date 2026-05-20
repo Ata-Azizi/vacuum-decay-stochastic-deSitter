@@ -2,7 +2,7 @@
 
 **Author:** Ata Azizi Seraji  
 **Supervisors:** Prof. Laura Covi, Dr. Sarif Khan  
-**Institution:** Institute for Theoretical Physics, Georg-August-Universität Göttingen
+**Institution:** Institute for Theoretical Physics, University of Göttingen
 
 ---
 

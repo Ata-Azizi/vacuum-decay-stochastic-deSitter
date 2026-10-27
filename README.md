@@ -6,68 +6,103 @@
 **Supervisors:** Prof. Laura Covi, Dr. Sarif Khan  
 **Institution:** Institute for Theoretical Physics, University of Göttingen
 
+---
+
 ## Research Overview
 
 This repository presents a research poster developed during an internship at the Institute for Theoretical Physics, University of Göttingen, under the supervision of Prof. Laura Covi and Dr. Sarif Khan.
 
-The project investigates vacuum decay and phase transitions in de Sitter spacetime using the **stochastic formalism**, which describes long-wavelength scalar-field fluctuations through Langevin and Fokker–Planck equations.
+The project investigates vacuum decay and phase transitions in de Sitter spacetime using the **stochastic formalism**, which describes the evolution of long-wavelength scalar-field fluctuations through Langevin and Fokker–Planck equations.
 
-The approach provides an alternative perspective to semiclassical vacuum decay by connecting metastable-state dynamics to the spectral properties of the Fokker–Planck operator.
+This framework provides an alternative perspective to the conventional semiclassical approach by relating metastable vacuum dynamics to the spectral properties of the Fokker–Planck operator.
 
 ## Theoretical Framework
 
+### 1. Stochastic Formalism
+
 The stochastic evolution of a scalar field is described by the Langevin equation:
 
-$$
-\dot{\phi}(t)=-\frac{V'(\phi)}{3H}+f(t),
-$$
+```math
+\dot{\phi}(t)=-\frac{V'(\phi)}{3H}+f(t)
+```
 
-where \(H\) is the Hubble parameter and \(f(t)\) represents stochastic noise originating from short-wavelength quantum fluctuations.
+where \(H\) is the Hubble parameter, \(V(\phi)\) is the scalar-field potential, and \(f(t)\) represents stochastic noise originating from short-wavelength quantum fluctuations.
 
 The corresponding probability distribution evolves according to the Fokker–Planck equation:
 
-$$
+```math
 \frac{\partial \rho}{\partial t}
 =
-\frac{\partial}{\partial\phi}
+\frac{\partial}{\partial \phi}
 \left(\frac{V'(\phi)}{3H}\rho\right)
 +
 \frac{H^3}{8\pi^2}
-\frac{\partial^2\rho}{\partial\phi^2}.
-$$
+\frac{\partial^2 \rho}{\partial \phi^2}
+```
 
-Through a suitable transformation, the Fokker–Planck equation can be expressed as a Schrödinger-like eigenvalue problem, enabling a spectral description of the stochastic dynamics.
+### 2. Spectral Expansion
 
-## Main Topics and Results
+Through a suitable transformation, the Fokker–Planck equation can be expressed as a Schrödinger-like eigenvalue problem.
 
-- **Spectral expansion:** Analysis of the Fokker–Planck equation using eigenfunctions and eigenvalues of an associated Schrödinger-like operator.
-- **Correlation functions:** Spatial and temporal two-point correlation functions of scalar fields in de Sitter spacetime.
-- **Interacting scalar fields:** Perturbative eigenvalue expansions for scalar potentials containing quadratic and quartic interactions.
-- **Vacuum decay:** Investigation of metastable-state decay in bounded and unbounded scalar potentials.
+The probability distribution can then be expanded in terms of eigenfunctions:
 
-A central result is the identification of the false-vacuum decay rate with the lowest relevant non-zero eigenvalue:
+```math
+\rho(\phi,t)
+=
+e^{-\frac{4\pi^2 V(\phi)}{3H^4}}
+\sum_n a_n \Phi_n(\phi)e^{-\Lambda_n(t-t_0)}
+```
 
-$$
+The eigenvalues determine the characteristic relaxation timescales of the stochastic system.
+
+### 3. Correlation Functions
+
+The stochastic formalism can also be used to study spatial and temporal two-point correlation functions.
+
+These quantities describe correlations between scalar-field fluctuations at different spatial positions or times and can be obtained from the corresponding two-point probability distributions.
+
+### 4. Interacting Scalar Fields
+
+The research considers interacting scalar fields with quadratic and quartic contributions to the potential.
+
+Perturbative expansions of the spectral eigenvalues are examined in different parameter regimes, including the massless and free-field limits.
+
+## Vacuum Decay and Main Results
+
+The stochastic description connects metastable-state decay to the spectral properties of the Fokker–Planck operator.
+
+For the bounded and unbounded potential cases considered in the poster, the decay rate is identified with the lowest relevant non-zero eigenvalue:
+
+```math
 \boxed{\Gamma=\Lambda_1}
-$$
+```
 
-This establishes a connection between stochastic relaxation dynamics and vacuum decay in de Sitter spacetime.
+The research explores:
+
+- Stochastic dynamics of scalar fields in de Sitter spacetime
+- Langevin and Fokker–Planck equations
+- Schrödinger-like spectral formulation
+- Spatial and temporal correlation functions
+- Perturbative expansions for interacting scalar fields
+- Vacuum decay in bounded and unbounded potentials
 
 ## Research Poster
 
-The complete poster contains the theoretical derivations, spectral formulation, correlation functions, and discussion of vacuum decay.
+The complete research poster presents the theoretical formulation, relevant equations, and discussion of the results.
 
-**[View the Research Poster](Poster.pdf)**
+**[View the Full Research Poster (PDF)](Poster.pdf)**
+
+![Research Poster](poster_preview.png)
 
 ## Scientific Relevance
 
-This work explores the relationship between stochastic processes, quantum field theory in curved spacetime, and metastable vacuum dynamics.
+This research investigates the relationship between stochastic processes, quantum field theory in curved spacetime, and metastable vacuum dynamics.
 
-It illustrates how differential equations and spectral methods can be used to study physical systems influenced by quantum fluctuations.
+It demonstrates the use of spectral methods, differential equations, and analytical approximations in the study of physical systems influenced by quantum fluctuations.
 
 ## References
 
-The research poster includes references to foundational work by Starobinsky and Yokoyama, as well as studies of stochastic spectral expansions and vacuum decay in de Sitter spacetime.
+The poster includes references to foundational research on stochastic inflation, scalar-field correlation functions, and vacuum decay in de Sitter spacetime, including works by Starobinsky, Yokoyama, Markkanen and collaborators, and Camargo-Molina and Rajantie.
 
 ## Author
 

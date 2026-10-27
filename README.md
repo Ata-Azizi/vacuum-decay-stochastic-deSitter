@@ -26,7 +26,7 @@ where \(H\) is the Hubble parameter and \(f(t)\) represents stochastic noise ori
 
 The corresponding probability distribution evolves according to the Fokker–Planck equation:
 
-$$
+$
 \frac{\partial \rho}{\partial t}
 =
 \frac{\partial}{\partial\phi}
@@ -34,7 +34,7 @@ $$
 +
 \frac{H^3}{8\pi^2}
 \frac{\partial^2\rho}{\partial\phi^2}.
-$$
+$
 
 Through a suitable transformation, the Fokker–Planck equation can be expressed as a Schrödinger-like eigenvalue problem, enabling a spectral description of the stochastic dynamics.
 

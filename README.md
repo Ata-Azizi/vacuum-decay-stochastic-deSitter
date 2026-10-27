@@ -26,7 +26,7 @@ The stochastic evolution of a scalar field is described by the Langevin equation
 \dot{\phi}(t)=-\frac{V'(\phi)}{3H}+f(t)
 ```
 
-where \(H\) is the Hubble parameter, \(V(\phi)\) is the scalar-field potential, and \(f(t)\) represents stochastic noise originating from short-wavelength quantum fluctuations.
+where $H$ is the Hubble parameter, $V(\phi)$ is the scalar-field potential, and $f(t)$ represents stochastic noise originating from short-wavelength quantum fluctuations.
 
 The corresponding probability distribution evolves according to the Fokker–Planck equation:
 
